@@ -1,0 +1,80 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do ece385_lab4_demo_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+C:/altera/15.0/zhijiej2/lab4/download\ files/ece385sp16_lab4_adders {C:/altera/15.0/zhijiej2/lab4/download files/ece385sp16_lab4_adders/ripple_adder.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:51:13 on Feb 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/15.0/zhijiej2/lab4/download files/ece385sp16_lab4_adders" C:/altera/15.0/zhijiej2/lab4/download files/ece385sp16_lab4_adders/ripple_adder.sv 
+# -- Compiling module ripple_adder
+# -- Compiling module four_bit_ra
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	ripple_adder
+# End time: 15:51:13 on Feb 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/15.0/zhijiej2/lab4/download\ files/ece385sp16_lab4_adders {C:/altera/15.0/zhijiej2/lab4/download files/ece385sp16_lab4_adders/HexDriver.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:51:13 on Feb 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/15.0/zhijiej2/lab4/download files/ece385sp16_lab4_adders" C:/altera/15.0/zhijiej2/lab4/download files/ece385sp16_lab4_adders/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 15:51:13 on Feb 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/altera/15.0/zhijiej2/lab4/download\ files/ece385sp16_lab4_adders {C:/altera/15.0/zhijiej2/lab4/download files/ece385sp16_lab4_adders/lab4_adders_toplevel.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:51:13 on Feb 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/15.0/zhijiej2/lab4/download files/ece385sp16_lab4_adders" C:/altera/15.0/zhijiej2/lab4/download files/ece385sp16_lab4_adders/lab4_adders_toplevel.sv 
+# -- Compiling module lab4_adders_toplevel
+# 
+# Top level modules:
+# 	lab4_adders_toplevel
+# End time: 15:51:14 on Feb 06,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/altera/15.0/zhijiej2/lab4/download\ files/ece385sp16_lab4_adders {C:/altera/15.0/zhijiej2/lab4/download files/ece385sp16_lab4_adders/testbench.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:51:14 on Feb 06,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/altera/15.0/zhijiej2/lab4/download files/ece385sp16_lab4_adders" C:/altera/15.0/zhijiej2/lab4/download files/ece385sp16_lab4_adders/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 15:51:14 on Feb 06,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -gui "+altera" -l msim_transcript -do "ece385_lab4_demo_run_msim_rtl_verilog.do" 
+# Start time: 15:51:14 on Feb 06,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.lab4_adders_toplevel
+# Loading work.ripple_adder
+# Loading work.four_bit_ra
+# Loading work.full_adder
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/altera/15.0/zhijiej2/lab4/download files/ece385sp16_lab4_adders/ripple_adder.sv(17): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/altera/15.0/zhijiej2/lab4/download files/ece385sp16_lab4_adders/ripple_adder.sv(29).
+# 
+#         Region: /testbench/tp/ripple_adder_inst/FRA0
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000 ns
+# End time: 15:52:10 on Feb 06,2018, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 1
