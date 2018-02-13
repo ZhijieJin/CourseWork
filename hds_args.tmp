@@ -1,1 +1,0 @@
- -L lab8_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays lab8_lib.lab8(struct)
