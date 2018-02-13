@@ -1,0 +1,94 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/zhijiej2/ece120/lab6/lab6_lib/work
+T_opt
+V7gg[`;<kVjPP2Y<B;0<011
+04 15 6 work vending_machine struct 1
+=1-a0d3c119a4f6-57f3f302-e9589-46ae
+Z1 o-quiet +acc -auto_acc_if_foreign -work lab6_lib -L lab6_lib
+n@_opt
+Z2 OE;O;10.1d;51
+Z3 d/home/zhijiej2/ece120/lab6/lab6_lib/work
+T_opt1
+V_2i^Ll[_SP6m[Y@0eoK6a0
+04 20 6 work vending_machine_nand struct 1
+=1-a0d3c119a4f6-57f3fb69-ed66a-4bcd
+R1
+n@_opt1
+R2
+Evending_machine
+Z4 w1475605243
+Z5 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z6 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z7 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R3
+Z8 8/home/zhijiej2/ece120/lab6/lab6_lib/hdl/vending_machine_struct.vhd
+Z9 F/home/zhijiej2/ece120/lab6/lab6_lib/hdl/vending_machine_struct.vhd
+l0
+L13
+VI:P42[?f0E25TJ0L4KzBg1
+Z10 OE;C;10.1d;51
+32
+Z11 !s108 1475605244.110903
+Z12 !s90 -work|lab6_lib|-nologo|-f|/tmp/Files0|
+Z13 !s107 /home/zhijiej2/ece120/lab6/lab6_lib/hdl/vending_machine_struct.vhd|
+Z14 o-work lab6_lib -nologo
+Z15 tExplicit 1
+!s100 <BY`OlzVb<>e4jk<_Z<[i0
+!i10b 1
+Astruct
+DEx4 work 15 vending_machine 0 22 I:P42[?f0E25TJ0L4KzBg1
+R5
+R6
+R7
+l55
+L40
+ViW8G4k:6@VG]@<VofVQz>0
+R10
+32
+R11
+R12
+R13
+R14
+R15
+!s100 ?A`DZzB?IOOcP4REIG1ZT0
+!i10b 1
+Evending_machine_nand
+Z16 w1475607394
+R5
+R6
+R7
+R3
+Z17 8/home/zhijiej2/ece120/lab6/lab6_lib/hdl/vending_machine_nand_struct.vhd
+Z18 F/home/zhijiej2/ece120/lab6/lab6_lib/hdl/vending_machine_nand_struct.vhd
+l0
+L13
+VH`2:nYQ@iQeIT8:?8Yk[b3
+R10
+32
+Z19 !s108 1475607394.686255
+R12
+Z20 !s107 /home/zhijiej2/ece120/lab6/lab6_lib/hdl/vending_machine_nand_struct.vhd|
+R14
+R15
+!s100 o8nH<:8[@f]65aBC9o_SC3
+!i10b 1
+Astruct
+DEx4 work 20 vending_machine_nand 0 22 H`2:nYQ@iQeIT8:?8Yk[b3
+R5
+R6
+R7
+l55
+L40
+VHi]_o[fg6F?>bEFBE[2`I1
+R10
+32
+R19
+R12
+R20
+R14
+R15
+!s100 C6FW87zEe@7cP7Q;e24T_2
+!i10b 1

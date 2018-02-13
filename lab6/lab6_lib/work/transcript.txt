@@ -1,0 +1,28 @@
+# //  ModelSim SE 10.1d Nov  1 2012 Linux 3.10.0-327.36.1.el7.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -L lab6_lib -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli {"/software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll"} lab6_lib.Vending_Machine_NAND(struct) 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.vending_machine_nand(struct)#1
+add wave  \
+sim:/vending_machine_nand/S0 \
+sim:/vending_machine_nand/S1 \
+sim:/vending_machine_nand/S2 \
+sim:/vending_machine_nand/A \
+sim:/vending_machine_nand/P
+do Vending_Machine.do
+run 80
+# Causality operation skipped due to absense of debug database file
+gedit Vending_Machine.do

@@ -1,0 +1,1 @@
+ -L lab6_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays lab6_lib.Vending_Machine_NAND(struct)
