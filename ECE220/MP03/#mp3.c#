@@ -1,0 +1,56 @@
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+// Factorial prototype
+double factorial(int n);
+
+int main()
+{
+  int row_index;
+
+  printf("Enter the row index : ");
+  scanf("%d",&row_index);
+
+  // Your code starts from here
+  // Declare two variables i and n
+  int i, n=row_index;
+  // Go through the loop n+1 times to print the coefficient
+  for (i = 0; i <= n; i++) 
+  {
+  	printf("%d ", (int)(factorial(n)/factorial(i)/factorial(n-i)));
+  	// If i equals n, the print a new line
+  	if (i == n)
+  	{
+  		printf("\n");
+  	}
+  }
+  
+  return 0;
+}
+
+/* Function to calculate factorial
+   
+*/
+double factorial(n)
+{	
+  // Declare i as an integer
+  int i; 
+  // Declare factorial as a double
+  double factorial=1;
+  // Loop through 1 to n to calculate the factorial
+  for (i = 1; i <=n; i++)
+  {
+  	factorial = factorial * i;
+  }
+  
+  return factorial;
+}
+
