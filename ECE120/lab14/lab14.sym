@@ -1,0 +1,21 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	FIRST_ROWS        3002
+//	LOOP1             3008
+//	STORE_NULL        300F
+//	LOOP_R            3015
+//	NEXT_LOOP         3016
+//	LOOP_C            301D
+//	NEXT              3021
+//	OUTPUT            3022
+//	NEXT_LINE         3028
+//	DONE              302D
+//	NEWLINE           302E
+//	NULL              302F
+//	CHAR              3030
+//	LETTER            3031
+//	STORE             3032
+//	FONT_DATA         3033
+

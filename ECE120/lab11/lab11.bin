@@ -1,0 +1,29 @@
+; This is the file you will use for the lab assignment
+; Make sure to comment your code properly and don't exceed 
+; the line limitation for this assignment.  Good luck!
+
+0011 0001 0000 0000  ; x3100 - starting address of the program
+
+; The program description and code starts here
+;
+; Initialize Registers
+; R5 is the register for storing values
+; R4 is the counter
+; R3 is the pointer
+; R2 is an additional register to store content of R3's location
+0101 101 101 1 00000 ; R5 <-- R5 AND x0000 (Clear R5 by ANDing it with x0000)
+0101 011 011 1 00000 ; R3 <-- R3 AND x0000 (Clear R3 by ANDing it with x0000)
+1110 011 000101111   ; R3 <-- R3 + x002F (Set R3 to the location x3132)
+0101 100 100 1 00000 ; R4 <-- R4 AND x0000 (Clear R4 by ANDing it with x0000)
+0001 100 100 1 01010 ; R4 <-- R4 + x000A (Set R4 to 10 by ADDing x000A to R4)
+;
+;Check each number, calculate the sum of positive number and store the sum in R5
+0110 010 011 000000  ; R2 <-- M[R3](store the memory in location R3 to R2)
+0000 110 000000001   ; BR (Ignor the number is it is negative)
+0001 101 101 0 00 010; R5 <-- R5 + R2 (sum R2, R5 and store the result in R5)
+0001 011 011 1 00001 ; R3 <-- R3 + 1 (Increase R3 by 1)
+0001 100 100 1 11111 ; R4 <-- R4 - 1 (Decrease R4 by 1)
+0000 001 111111010   ; BR (If R4 > 0, check the next value)
+;
+;Halt
+1111 0000 0010 0101  ; Halt instruction

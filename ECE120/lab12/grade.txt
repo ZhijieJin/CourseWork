@@ -1,0 +1,21 @@
+lc3as output:
+ 14: illegal operands for missing opcode
+ 16: instruction appears before .ORIG
+ 17: constant outside of allowed range
+ 19: illegal operands for ADD
+ 30: constant outside of allowed range
+ 32: label OUTERLOOP has already appeared
+ 35: constant outside of allowed range
+ 43: no .END directive found
+STARTING PASS 1
+8 errors found in first pass.
+
+factorial: 0/10
+register_initialization: 0/3
+Functionality: 0/13
+
+Question 1: 0/7
+Question 2: 0/3
+Question 3: 0/2
+
+Total: 0/25
