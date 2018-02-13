@@ -1,0 +1,53 @@
+# //  ModelSim SE 10.1d Nov  1 2012 Linux 3.10.0-327.36.2.el7.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -L lab8_lib -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli {"/software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll"} lab8_lib.lab8(struct) 
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.lab8(struct)#1
+# Loading work.control_logic(struct)#1
+# Loading work.next_state_logic(struct)#1
+add wave  \
+sim:/lab8/T \
+sim:/lab8/clk \
+sim:/lab8/rst \
+sim:/lab8/set \
+sim:/lab8/A \
+sim:/lab8/P \
+sim:/lab8/S0 \
+sim:/lab8/S1 \
+sim:/lab8/S2
+gedit demo.do
+do demo.do
+run 150
+# Causality operation skipped due to absense of debug database file
+gedit demo.do
+restart
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+do demo.do
+run 150
+restart
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+do insertcoins.do
+run 200
+gedit insertcoins.do
+gedit demo.do
+do demo.do
+# ** Error: Time value must be greater than "now": 0
+# Error in macro ./demo.do line 1
+# Time value must be greater than "now": 0
+#     while executing
+# "force /clk 0 @0"
+restart
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+do demo.do
+run 270
