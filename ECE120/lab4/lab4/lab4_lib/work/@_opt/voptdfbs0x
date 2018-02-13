@@ -1,0 +1,49 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/zhijiej2/ece120/lab4/lab4/lab4_lib/work
+T_opt
+ViBfeZ64YC1V7oMTS]_<j_3
+04 6 6 work my_xor struct 1
+=1-a0d3c112a027-57df138a-25094-1dfd
+o-quiet +acc -auto_acc_if_foreign -work lab4_lib -L lab4_lib
+n@_opt
+OE;O;10.1d;51
+Emy_xor
+Z1 w1474237316
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 d/home/zhijiej2/ece120/lab4/lab4/lab4_lib/work
+Z6 8/home/zhijiej2/ece120/lab4/lab4/lab4_lib/hdl/my_xor_struct.vhd
+Z7 F/home/zhijiej2/ece120/lab4/lab4/lab4_lib/hdl/my_xor_struct.vhd
+l0
+L13
+ViQ_6Id54@3Z@7lC<_Q3f53
+Z8 OE;C;10.1d;51
+32
+Z9 !s108 1474237316.759821
+Z10 !s90 -work|lab4_lib|-nologo|-f|/tmp/Files0|
+Z11 !s107 /home/zhijiej2/ece120/lab4/lab4/lab4_lib/hdl/my_xor_struct.vhd|
+Z12 o-work lab4_lib -nologo
+Z13 tExplicit 1
+!s100 c0b6i`2=MYLOL@cGgFB9D0
+!i10b 1
+Astruct
+DEx4 work 6 my_xor 0 22 iQ_6Id54@3Z@7lC<_Q3f53
+R2
+R3
+R4
+l50
+L38
+VQz_Ml6@5lALefdB=<9jEf0
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 ?QR?dV=?0K:0NTI;MNa4z1
+!i10b 1

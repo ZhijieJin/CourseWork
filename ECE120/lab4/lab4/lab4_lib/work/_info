@@ -1,0 +1,119 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/zhijiej2/ece120/lab4/lab4/lab4_lib/work
+T_opt
+ViBfeZ64YC1V7oMTS]_<j_3
+04 6 6 work my_xor struct 1
+=1-a0d3c112a027-57df138a-25094-1dfd
+Z1 o-quiet +acc -auto_acc_if_foreign -work lab4_lib -L lab4_lib
+n@_opt
+Z2 OE;O;10.1d;51
+Z3 d/home/zhijiej2/ece120/lab4/lab4/lab4_lib/work
+T_opt1
+VDFJK7`l[V<4C^X6z]QbXS2
+04 10 6 work full_adder struct 1
+=1-a0d3c112a027-57df2d14-ae8bb-33e8
+R1
+n@_opt1
+R2
+Efull_adder
+Z4 w1474243853
+Z5 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z6 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z7 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R3
+Z8 8/home/zhijiej2/ece120/lab4/lab4/lab4_lib/hdl/full_adder_struct.vhd
+Z9 F/home/zhijiej2/ece120/lab4/lab4/lab4_lib/hdl/full_adder_struct.vhd
+l0
+L13
+VUH2C5C1j6dTn>P[Y?4?iS0
+Z10 OE;C;10.1d;51
+32
+Z11 !s108 1474243853.782715
+Z12 !s90 -work|lab4_lib|-nologo|-f|/tmp/Files0|
+Z13 !s107 /home/zhijiej2/ece120/lab4/lab4/lab4_lib/hdl/full_adder_struct.vhd|
+Z14 o-work lab4_lib -nologo
+Z15 tExplicit 1
+!s100 oNEo=D@RQXd3^Vlmc8g`Q3
+!i10b 1
+Astruct
+DEx8 lab4_lib 6 my_xor 0 22 iQ_6Id54@3Z@7lC<_Q3f53
+DEx4 work 10 full_adder 0 22 UH2C5C1j6dTn>P[Y?4?iS0
+R5
+R6
+R7
+l66
+L41
+V^_mkh1GJeARIHj?CRZX:S3
+R10
+32
+R11
+R12
+R13
+R14
+R15
+!s100 6ODMM@A3@9T;N>oIU?V:[1
+!i10b 1
+Emy_xor
+Z16 w1474237316
+R5
+R6
+R7
+R3
+Z17 8/home/zhijiej2/ece120/lab4/lab4/lab4_lib/hdl/my_xor_struct.vhd
+Z18 F/home/zhijiej2/ece120/lab4/lab4/lab4_lib/hdl/my_xor_struct.vhd
+l0
+L13
+ViQ_6Id54@3Z@7lC<_Q3f53
+R10
+32
+Z19 !s108 1474237316.759821
+R12
+Z20 !s107 /home/zhijiej2/ece120/lab4/lab4/lab4_lib/hdl/my_xor_struct.vhd|
+R14
+R15
+!s100 c0b6i`2=MYLOL@cGgFB9D0
+!i10b 1
+Astruct
+Z21 DEx4 work 6 my_xor 0 22 iQ_6Id54@3Z@7lC<_Q3f53
+R5
+R6
+R7
+l50
+L38
+VQz_Ml6@5lALefdB=<9jEf0
+R10
+32
+R19
+R12
+R20
+R14
+R15
+!s100 ?QR?dV=?0K:0NTI;MNa4z1
+!i10b 1
+Cmy_xor_struct_config
+astruct
+emy_xor
+DAx4 work 6 my_xor 6 struct 22 Qz_Ml6@5lALefdB=<9jEf0
+R5
+R6
+R7
+R21
+w1474239672
+R3
+8/home/zhijiej2/ece120/lab4/lab4/lab4_lib/hdl/my_xor_struct_config.vhd
+F/home/zhijiej2/ece120/lab4/lab4/lab4_lib/hdl/my_xor_struct_config.vhd
+l0
+L8
+VmJEO_jd80a[LXVz[T;<h:0
+R10
+32
+R12
+R14
+R15
+!s108 1474239939.837850
+!s107 /home/zhijiej2/ece120/lab4/lab4/lab4_lib/hdl/Full_Adder_struct_config.vhd|/home/zhijiej2/ece120/lab4/lab4/lab4_lib/hdl/full_adder_struct.vhd|/home/zhijiej2/ece120/lab4/lab4/lab4_lib/hdl/my_xor_struct_config.vhd|
+!s100 gjO0H^7OE@VZ__X__Ha?A1
+!i10b 0

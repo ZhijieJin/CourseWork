@@ -1,0 +1,9 @@
+a)Mystery program...
+invalid input!
+
+b)Mystery program...
+
+c)Mystery program...
+6
+3
+1
