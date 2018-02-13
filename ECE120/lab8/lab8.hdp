@@ -1,0 +1,13 @@
+[ModelSim]
+lab8_lib = $HDS_PROJECT_DIR/lab8_lib/work
+[hdl]
+lab8_lib = $HDS_PROJECT_DIR/lab8_lib/hdl
+[hds]
+lab8_lib = $HDS_PROJECT_DIR/lab8_lib/hds
+[hds_settings]
+default_library = lab8_lib
+version = 2
+[library_type]
+lab8_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
