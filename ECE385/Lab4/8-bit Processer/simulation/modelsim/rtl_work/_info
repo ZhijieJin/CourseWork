@@ -1,0 +1,276 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/altera/15.0/zhijiej2/lab4/download files/processor2/simulation/modelsim
+vcompute
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1518068384
+!i10b 1
+!s100 aZ0KDKnfTN[lHh;ceiO9Q3
+ILW@eTD3N@7eYZWk;d1OUQ1
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 compute_sv_unit
+S1
+R0
+w1473975282
+8C:/altera/15.0/zhijiej2/lab4/download files/processor2/compute.sv
+FC:/altera/15.0/zhijiej2/lab4/download files/processor2/compute.sv
+L0 1
+Z4 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1518068384.861000
+!s107 C:/altera/15.0/zhijiej2/lab4/download files/processor2/compute.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/15.0/zhijiej2/lab4/download files/processor2|C:/altera/15.0/zhijiej2/lab4/download files/processor2/compute.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work {+incdir+C:/altera/15.0/zhijiej2/lab4/download files/processor2}
+vcontrol
+R1
+R2
+!i10b 1
+!s100 ab1<WdDU]8EmnD:h6JmTb1
+Ikgi_RRK_U>@QWJ8[:BP6h2
+R3
+!s105 Control_sv_unit
+S1
+R0
+w1518067958
+8C:/altera/15.0/zhijiej2/lab4/download files/processor2/Control.sv
+FC:/altera/15.0/zhijiej2/lab4/download files/processor2/Control.sv
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1518068384.783000
+!s107 C:/altera/15.0/zhijiej2/lab4/download files/processor2/Control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/15.0/zhijiej2/lab4/download files/processor2|C:/altera/15.0/zhijiej2/lab4/download files/processor2/Control.sv|
+!i113 1
+R5
+R6
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 UH7P[dTK1gbKnd]=kl[zQ3
+IF@XAURNXCWWgaT@W:FR@03
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1472679712
+8C:/altera/15.0/zhijiej2/lab4/download files/processor2/HexDriver.sv
+FC:/altera/15.0/zhijiej2/lab4/download files/processor2/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1518068384.658000
+!s107 C:/altera/15.0/zhijiej2/lab4/download files/processor2/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/15.0/zhijiej2/lab4/download files/processor2|C:/altera/15.0/zhijiej2/lab4/download files/processor2/HexDriver.sv|
+!i113 1
+R5
+R6
+n@hex@driver
+vProcessor
+R1
+Z7 !s110 1518068385
+!i10b 1
+!s100 fXiZ:o9G2U[D4Mdm];Z5K3
+IZ@Q0Bbi_L3j04;JbA_lk_3
+R3
+!s105 Processor_sv_unit
+S1
+R0
+w1518065368
+8C:/altera/15.0/zhijiej2/lab4/download files/processor2/Processor.sv
+FC:/altera/15.0/zhijiej2/lab4/download files/processor2/Processor.sv
+L0 8
+R4
+r1
+!s85 0
+31
+!s108 1518068385.017000
+!s107 C:/altera/15.0/zhijiej2/lab4/download files/processor2/Processor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/15.0/zhijiej2/lab4/download files/processor2|C:/altera/15.0/zhijiej2/lab4/download files/processor2/Processor.sv|
+!i113 1
+R5
+R6
+n@processor
+vreg_8
+R1
+R2
+!i10b 1
+!s100 WWdzR03@C^9b3oUm=RkLo0
+IVO_CC@2z33zARlT?9fNhV0
+R3
+!s105 Reg_4_sv_unit
+S1
+R0
+w1518067419
+8C:/altera/15.0/zhijiej2/lab4/download files/processor2/Reg_4.sv
+FC:/altera/15.0/zhijiej2/lab4/download files/processor2/Reg_4.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1518068384.568000
+!s107 C:/altera/15.0/zhijiej2/lab4/download files/processor2/Reg_4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/15.0/zhijiej2/lab4/download files/processor2|C:/altera/15.0/zhijiej2/lab4/download files/processor2/Reg_4.sv|
+!i113 1
+R5
+R6
+vregister_unit
+R1
+R2
+!i10b 1
+!s100 2ffML3jhY4aCKKX2f;m:<1
+Ig9<9]_jel9ATUoOG`PEhH2
+R3
+!s105 Register_unit_sv_unit
+S1
+R0
+w1518061180
+8C:/altera/15.0/zhijiej2/lab4/download files/processor2/Register_unit.sv
+FC:/altera/15.0/zhijiej2/lab4/download files/processor2/Register_unit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1518068384.939000
+!s107 C:/altera/15.0/zhijiej2/lab4/download files/processor2/Register_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/15.0/zhijiej2/lab4/download files/processor2|C:/altera/15.0/zhijiej2/lab4/download files/processor2/Register_unit.sv|
+!i113 1
+R5
+R6
+vrouter
+R1
+R2
+!i10b 1
+!s100 ]S2VA?P3gi<Om=AC6U3903
+IhLC=@JTHMVaX;F3iDKRe>2
+R3
+!s105 Router_sv_unit
+S1
+R0
+w1472679706
+8C:/altera/15.0/zhijiej2/lab4/download files/processor2/Router.sv
+FC:/altera/15.0/zhijiej2/lab4/download files/processor2/Router.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1518068384.494000
+!s107 C:/altera/15.0/zhijiej2/lab4/download files/processor2/Router.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/15.0/zhijiej2/lab4/download files/processor2|C:/altera/15.0/zhijiej2/lab4/download files/processor2/Router.sv|
+!i113 1
+R5
+R6
+vsync
+R1
+R2
+!i10b 1
+!s100 FloJaUP>]UNPcBERTmfU13
+I=mihNg:Qc3ThTH>7N6iB73
+R3
+Z8 !s105 Synchronizers_sv_unit
+S1
+R0
+Z9 w1473642984
+Z10 8C:/altera/15.0/zhijiej2/lab4/download files/processor2/Synchronizers.sv
+Z11 FC:/altera/15.0/zhijiej2/lab4/download files/processor2/Synchronizers.sv
+L0 4
+R4
+r1
+!s85 0
+31
+Z12 !s108 1518068384.421000
+Z13 !s107 C:/altera/15.0/zhijiej2/lab4/download files/processor2/Synchronizers.sv|
+Z14 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/15.0/zhijiej2/lab4/download files/processor2|C:/altera/15.0/zhijiej2/lab4/download files/processor2/Synchronizers.sv|
+!i113 1
+R5
+R6
+vsync_r0
+R1
+R2
+!i10b 1
+!s100 QY6]=X?VaL]0ijJZ46B:40
+IAOjOIgE3[gjeK0Cm=`Vc20
+R3
+R8
+S1
+R0
+R9
+R10
+R11
+L0 18
+R4
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R5
+R6
+vsync_r1
+R1
+R2
+!i10b 1
+!s100 9dOQbTVGG6oj0DT9goc970
+I88Z=^KMZOg]f27L1@f9nj0
+R3
+R8
+S1
+R0
+R9
+R10
+R11
+L0 39
+R4
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R5
+R6
+vtestbench
+R1
+R7
+!i10b 1
+!s100 U=Y6o>f8GOIWGdjIbG`eh1
+I^lkZOLd=?08<^gf9DiSM<0
+R3
+!s105 testbench_8_sv_unit
+S1
+R0
+w1518067467
+8C:/altera/15.0/zhijiej2/lab4/download files/processor2/testbench_8.sv
+FC:/altera/15.0/zhijiej2/lab4/download files/processor2/testbench_8.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1518068385.095000
+!s107 C:/altera/15.0/zhijiej2/lab4/download files/processor2/testbench_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/15.0/zhijiej2/lab4/download files/processor2|C:/altera/15.0/zhijiej2/lab4/download files/processor2/testbench_8.sv|
+!i113 1
+R5
+R6

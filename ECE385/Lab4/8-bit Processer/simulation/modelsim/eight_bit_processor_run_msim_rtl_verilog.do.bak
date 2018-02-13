@@ -1,0 +1,16 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/altera/15.0/zhijiej2/lab4/download\ files/processor2 {C:/altera/15.0/zhijiej2/lab4/download files/processor2/Synchronizers.sv}
+vlog -sv -work work +incdir+C:/altera/15.0/zhijiej2/lab4/download\ files/processor2 {C:/altera/15.0/zhijiej2/lab4/download files/processor2/Router.sv}
+vlog -sv -work work +incdir+C:/altera/15.0/zhijiej2/lab4/download\ files/processor2 {C:/altera/15.0/zhijiej2/lab4/download files/processor2/Reg_4.sv}
+vlog -sv -work work +incdir+C:/altera/15.0/zhijiej2/lab4/download\ files/processor2 {C:/altera/15.0/zhijiej2/lab4/download files/processor2/HexDriver.sv}
+vlog -sv -work work +incdir+C:/altera/15.0/zhijiej2/lab4/download\ files/processor2 {C:/altera/15.0/zhijiej2/lab4/download files/processor2/Control.sv}
+vlog -sv -work work +incdir+C:/altera/15.0/zhijiej2/lab4/download\ files/processor2 {C:/altera/15.0/zhijiej2/lab4/download files/processor2/compute.sv}
+vlog -sv -work work +incdir+C:/altera/15.0/zhijiej2/lab4/download\ files/processor2 {C:/altera/15.0/zhijiej2/lab4/download files/processor2/Register_unit.sv}
+vlog -sv -work work +incdir+C:/altera/15.0/zhijiej2/lab4/download\ files/processor2 {C:/altera/15.0/zhijiej2/lab4/download files/processor2/Processor.sv}
+
